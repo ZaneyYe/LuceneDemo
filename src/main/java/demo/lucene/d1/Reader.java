@@ -1,4 +1,4 @@
-package demo.lecene.d1;
+package demo.lucene.d1;
 
 import org.apache.lucene.analysis.standard.StandardAnalyzer;
 import org.apache.lucene.document.Document;

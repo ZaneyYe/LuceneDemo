@@ -1,6 +1,5 @@
-package demo.lecene.d1;
+package demo.lucene.d1;
 
-import demo.lecene.d1.Indexer.TextFileFilter;
 import org.apache.lucene.queryparser.classic.ParseException;
 
 import java.io.IOException;

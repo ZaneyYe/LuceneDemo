@@ -30,6 +30,7 @@ public class Reader {
         for(ScoreDoc scoreDoc : topDocs.scoreDocs){
             Document doc = is.doc(scoreDoc.doc);
             System.out.println(doc.get("filename"));
+            System.out.println(scoreDoc.score);
         }
 //        is.search();
     }
